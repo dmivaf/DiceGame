@@ -16,6 +16,7 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -51,7 +52,7 @@ fun Content(modifier: Modifier = Modifier) {
     ) {
         Row {
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                Text(text = "Dado Mágico de Dmitry", fontSize = 25.sp)
+                Text(text = stringResource(R.string.app_name_text), fontSize = 25.sp)
                 Text(text = "- Las flechas son para apostar que saldrá un número mayor (⬆) o menor (⬇) que el dado.", fontSize = 15.sp)
                 Text(text = "- Los números son para apostar que saldrá ese número en el dado.", fontSize = 15.sp)
                 Text(text = "Flechas: paga 1 y gana 3", fontSize = 15.sp)
