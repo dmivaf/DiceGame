@@ -2,4 +2,10 @@
 <resources>
     <string name="app_name">DiceGameDmitry</string>
     <string name="app_name_text">Dado Mágico de Dmitry</string>
+    <string name="arrows_explanation_text">- Las flechas son para apostar que saldrá un número mayor (⬆) o menor (⬇) que el dado.</string>
+    <string name="numbers_explanation_text">- Los números son para apostar que saldrá ese número en el dado.</string>
+    <string name="arrows_cost_text">Flechas: paga 1 y gana 3</string>
+    <string name="numbers_price_text">Números: paga 3 y gana 15</string>
+    <string name="points_text">Puntos:</string>
+    <string name="restart_text">Reiniciar Juego</string>
 </resources>

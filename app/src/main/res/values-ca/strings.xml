@@ -2,4 +2,10 @@
 <resources>
     <string name="app_name">DiceGameDmitry</string>
     <string name="app_name_text">Dau Màgic de Dmitry</string>
+    <string name="arrows_explanation_text">-Les fletxes són per apostar si el número serà més gran (⬆) o més petit (⬇) que el dau.</string>
+    <string name="numbers_explanation_text">-Els números són per apostar que sortirà aquest número al dau.</string>
+    <string name="arrows_cost_text">Fletxes: paga 1 i guanya 3</string>
+    <string name="numbers_price_text">Números: paga 3 i guanya 15</string>
+    <string name="points_text">Punts:</string>
+    <string name="restart_text">Reinicia Joc</string>
 </resources>

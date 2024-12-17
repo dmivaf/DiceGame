@@ -53,10 +53,10 @@ fun Content(modifier: Modifier = Modifier) {
         Row {
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
                 Text(text = stringResource(R.string.app_name_text), fontSize = 25.sp)
-                Text(text = "- Las flechas son para apostar que saldrá un número mayor (⬆) o menor (⬇) que el dado.", fontSize = 15.sp)
-                Text(text = "- Los números son para apostar que saldrá ese número en el dado.", fontSize = 15.sp)
-                Text(text = "Flechas: paga 1 y gana 3", fontSize = 15.sp)
-                Text(text = "Números: paga 3 y gana 15", fontSize = 15.sp)
+                Text(text = stringResource(R.string.arrows_explanation_text), fontSize = 15.sp)
+                Text(text = stringResource(R.string.numbers_explanation_text), fontSize = 15.sp)
+                Text(text = stringResource(R.string.arrows_cost_text), fontSize = 15.sp)
+                Text(text = stringResource(R.string.numbers_price_text), fontSize = 15.sp)
             }
         }
         Row {
@@ -66,7 +66,7 @@ fun Content(modifier: Modifier = Modifier) {
                 }
             }
             Column(modifier = Modifier.padding(start = 30.dp), horizontalAlignment = Alignment.CenterHorizontally) {
-                Text(text = "Puntos:", fontSize = 15.sp)
+                Text(text = stringResource(R.string.points_text), fontSize = 15.sp)
                 Text(text = "$puntos", fontSize = 50.sp)
             }
         }
@@ -127,7 +127,7 @@ fun Content(modifier: Modifier = Modifier) {
             }
         } else {
             Button(onClick = { puntos = 20 }, shape = RoundedCornerShape(10.dp)) {
-                Text(text = "Reiniciar Juego", fontSize = 20.sp)
+                Text(text = stringResource(R.string.restart_text), fontSize = 20.sp)
             }
         }
         Row(modifier = modifier.fillMaxSize(), horizontalArrangement = Arrangement.SpaceEvenly, verticalAlignment = Alignment.Bottom) {

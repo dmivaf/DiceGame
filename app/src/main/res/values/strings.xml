@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">DiceGameDmitry</string>
     <string name="app_name_text">Dmitry\'s Magic Dice</string>
+    <string name="arrows_explanation_text">-The arrows are for betting whether the number will be higher (⬆) or lower (⬇) than the dice.</string>
+    <string name="numbers_explanation_text">-The numbers are for betting that this number will come up on the die.</string>
+    <string name="arrows_cost_text">Arrows: pay 1 and win 3</string>
+    <string name="numbers_price_text">Numbers: pay 3 and win 15</string>
+    <string name="points_text">Points:</string>
+    <string name="restart_text">Restart Game</string>
 </resources>
